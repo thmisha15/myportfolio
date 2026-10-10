@@ -1,0 +1,74 @@
+/* WEEK 3: mobile viewport <=600px; one column, readable buttons and navigation. */
+
+.page-width {
+    width: 92%;
+}
+
+.header-inner {
+    padding: 14px 0;
+}
+
+.brand,nav {
+    float: none;
+    display: block;
+}
+
+nav {
+    margin-top: 12px;
+}
+
+nav a {
+    margin: 0 11px 7px 0;
+    font-size: .92rem;
+}
+
+.hero {
+    padding: 43px 0 50px;
+}
+
+.hero h1 {
+    font-size: 2.1rem;
+}
+
+.hero-intro {
+    font-size: 1rem;
+}
+
+.button {
+    margin-bottom: 10px;
+}
+
+.content-section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+h1 {
+    font-size: 2.15rem;
+}
+
+.tile-row {
+    margin: 0;
+}
+
+.tile,.about-copy,.about-media,.contact-wrap form,.contact-aside {
+    float: none;
+    width: 100%;
+    margin: 0 0 18px;
+}
+
+.tile {
+    min-height: 0;
+}
+
+.soft-panel {
+    padding: 22px;
+}
+
+.project {
+    padding: 20px;
+}
+
+.profile-image {
+    max-width: 320px;
+}

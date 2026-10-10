@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <meta content="Portfolio of Thmisha Rasanathan, an Information Technology student at Ontario Tech University." name="description"/>
+        <title>
+            Contact | Thmisha Rasanathan
+        </title>
+        <!-- Week 1: HTML template and external stylesheets. Week 3: viewport-specific CSS. -->
+        <link href="css/styles-laptop.css" rel="stylesheet"/>
+        <link href="css/styles-tablet.css" media="(min-width: 601px) and (max-width: 1023px)" rel="stylesheet"/>
+        <link href="css/styles-mobile.css" media="(max-width: 600px)" rel="stylesheet"/>
+    </head>
+    <body>
+        <!-- Week 2-b: semantic header and navigation elements. -->
+        <header class="site-header">
+            <div class="page-width header-inner">
+                <a class="brand" href="index.html">
+                    Thmisha
+                    <span>
+                        R.
+                    </span>
+                </a>
+                <nav aria-label="Main navigation">
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="about.html">
+                        About
+                    </a>
+                    <a href="projects.html">
+                        Projects
+                    </a>
+                    <a aria-current="page" href="contact.html">
+                        Contact
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <main class="page-width content-section">
+            <p class="eyebrow dark">
+                LET'S CONNECT
+            </p>
+            <h1>
+                Contact Me
+            </h1>
+            <p class="lead">
+                Interested in connecting about technology, projects or opportunities? Send me a message below.
+            </p>
+            <div class="contact-wrap">
+                <!-- Assignment requirement: HTML5 required, email and telephone pattern validation. -->
+                <!-- This is a static-site form: mailto opens the visitor's email application; no server delivery is promised. -->
+                <form action="mailto:thmisha15@hotmail.com" enctype="text/plain" method="post">
+                    <label for="visitor-name">
+                        Full name
+                        <span aria-hidden="true">
+                            *
+                        </span>
+                    </label>
+                    <input autocomplete="name" id="visitor-name" maxlength="80" name="name" required="" type="text"/>
+                    <label for="visitor-email">
+                        Email address
+                        <span aria-hidden="true">
+                            *
+                        </span>
+                    </label>
+                    <input autocomplete="email" id="visitor-email" name="email" required="" type="email"/>
+                    <label for="visitor-phone">
+                        Phone number (optional)
+                    </label>
+                    <input autocomplete="tel" id="visitor-phone" name="phone" pattern="[0-9()+. -]{10,20}" title="Enter 10 to 20 characters, using numbers, spaces, +, brackets, periods or hyphens." type="tel"/>
+                    <label for="visitor-message">
+                        Your message
+                        <span aria-hidden="true">
+                            *
+                        </span>
+                    </label>
+                    <textarea id="visitor-message" maxlength="2000" name="message" required="" rows="6"></textarea>
+                    <button class="button" type="submit">
+                        Prepare email
+                    </button>
+                    <p class="form-note">
+                        This form opens your email application so you can review and send your message. It does not submit to a server.
+                    </p>
+                </form>
+                <!--Contact information and social media links -->
+                <aside class="contact-aside">
+                    <h2>Other ways to connect</h2>
+                    <p>
+                        <strong>
+                            Email
+                        </strong>
+                        <br/>
+                        <a href="mailto:thmisha15@hotmail.com">
+                            thmisha15@hotmail.com
+                        </a>
+                    </p>
+                    <p>
+                        <strong>
+                            LinkedIn
+                        </strong>
+                        <br/>
+                        <a href="https://www.linkedin.com/in/thmisha/" target="_blank">
+                            linkedin.com/in/thmisha
+                        </a>
+                    </p>
+                    <p>
+                        <strong>
+                            GitHub
+                        </strong>
+                        <br/>
+                        <a href="https://github.com/thmisha15" target="_blank">
+                            github.com/thmisha15
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>
+                            Location
+                        </strong>
+                        <br/>
+                        Toronto, Ontario
+                    </p>
+                </aside>
+            </div>
+        </main>
+        <!-- Week 2-b: semantic footer; Assignment 1 requires contact email and copyright. -->
+        <footer class="site-footer">
+            <div class="page-width">
+                <p>
+                    Email:
+                    <a href="mailto:thmisha15@hotmail.com">
+                        thmisha15@hotmail.com
+                    </a>
+                </p>
+          <p>
+            <a href="https://www.linkedin.com/in/thmisha/"
+               target="_blank"
+               rel="noopener noreferrer">
+                LinkedIn
+            </a>
+          </p>
+
+          <p>
+            <a href="https://github.com/thmisha15"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+         </p>
+                <p>
+                    © 2026 Thmisha Rasanathan. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
+

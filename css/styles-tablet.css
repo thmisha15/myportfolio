@@ -1,0 +1,34 @@
+/* WEEK 3: tablet viewport 601–1023px, separate CSS file, fluid percentages. */
+
+.page-width {
+    width: 92%;
+}
+
+.hero {
+    padding: 65px 0;
+}
+
+.hero h1 {
+    font-size: 2.75rem;
+}
+
+.tile {
+    width: 48%;
+    min-height: 220px;
+}
+
+.about-copy {
+    width: 57%;
+}
+
+.about-media {
+    width: 38%;
+}
+
+.contact-wrap form {
+    width: 60%;
+}
+
+.contact-aside {
+    width: 35%;
+}
