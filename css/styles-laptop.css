@@ -269,6 +269,14 @@ video {
     background: var(--navy);
 }
 
+.intro-video {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
 .project {
     padding: 25px 29px;
     margin-bottom: 18px;
